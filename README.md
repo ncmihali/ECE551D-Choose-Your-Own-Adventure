@@ -43,16 +43,16 @@ The format of an input file is as follows:
 59:Leave the dragon's cave and go home
 32:Draw your sword and attack the dragon
 
-        Note that these are the same options as above, but slightly
-	reformatted as the user of this program will not need to explicitly
-	know the page numbers. Furthermore, note that there is no limit to
-	the number of choices that can be presented to a user in our
-	stories. We *could* give you a story with 10,000 choices on a page,
-	100,000 choices on a page, or even 2,000,000 choices on a page.
-        All text before the first colon must be a valid number.  We only
-	plan to test with base 10 numbers.  If you want to accept octal and/or
-	hexadecmial, it is up to you, but not required: we will not test with
-	any number other than base 10.
+Note that these are the same options as above, but slightly
+reformatted as the user of this program will not need to explicitly
+know the page numbers. Furthermore, note that there is no limit to
+the number of choices that can be presented to a user in our
+stories. We *could* give you a story with 10,000 choices on a page,
+100,000 choices on a page, or even 2,000,000 choices on a page.
+All text before the first colon must be a valid number.  We only
+plan to test with base 10 numbers.  If you want to accept octal and/or
+hexadecmial, it is up to you, but not required: we will not test with
+any number other than base 10.
 
  2. A single line that starts with a # sign, which separates the navigation
     section from the text of hte page. It is legal (but not required) to
@@ -64,12 +64,6 @@ The format of an input file is as follows:
     as it was in the input file. Note that any text is legal in this
     portion of the file (there is now way any of this input can be
     invalid).
-
-Note that we provide two example stories (one written by Drew,
-and one written by Genevieve!) in the story1 and story2 directories.
-There are also a variety of other test cases available in
-
-/usr/local/ece551/cyoa/
 
 some of which are valid and some of which are not.  These other test
 cases do not really tell meaningful stories (though story1 and story2
@@ -88,10 +82,6 @@ For the first part of this assignment, you should make the following:
     errors, and if no errors are found, print the page out in the format
     described below. If any errors are found, your program should print an
     error message and exit failure. 
-
-    Note that for this step, you are only reading one page in isolation, so
-    you cannot check if the page numbers in the choices are actually valid
-    for the story (beyond checking that they are positive numbers).
      
 Output format:
 
@@ -136,11 +126,11 @@ If the page has WIN or LOSE instead of choices, you should
  2. Next, print a blank line.
  3. Then print either
  
-	Congratulations! You have won. Hooray!
+ Congratulations! You have won. Hooray!
 
 or
-
-	Sorry, you have lost. Better luck next time!
+ 
+ Sorry, you have lost. Better luck next time!
 
 You should print the former if the page is a WIN page, and the later if
 the page is a LOSE page. 
