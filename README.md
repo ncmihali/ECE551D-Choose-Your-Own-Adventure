@@ -40,7 +40,9 @@ The format of an input file is as follows:
 	An example of three such lines would be: 
 	
 47:Try to sneak past the sleeping dragon
+
 59:Leave the dragon's cave and go home
+
 32:Draw your sword and attack the dragon
 
 Note that these are the same options as above, but slightly
