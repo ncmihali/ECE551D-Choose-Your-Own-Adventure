@@ -1,8 +1,0 @@
-#error
-
-#success
-cyoa-step1 story1/page1.txt
-cyoa-step1 story1/page10.txt
-cyoa-step3 story2
-cyoa-step4 story2
-cyoa-step4 story3
