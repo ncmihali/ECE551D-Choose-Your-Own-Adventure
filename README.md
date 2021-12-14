@@ -308,13 +308,3 @@ This story is unwinnable!
 The program should still exit successfully if it prints the above
 message, which is not an error (but instead a legitimate result of the
 program).  
-
-Hint: Step 3 hinted that you want a similar but slightly different
-      graph algorithm here. Think especially about how and when you
-      want to mark nodes as "visited" in this problem, if you want to
-      find ALL cycle-free winning paths. That is, you only want to
-      avoid re-visiting a node on the same path.
-
-Make sure your Makefile produces cyoa-step4 (and that cyoa-step1,
-cyoa-step2, and cyoa-step3 still build and run correctly). Test your
-program well, and submit.
