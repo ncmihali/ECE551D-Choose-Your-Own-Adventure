@@ -1,7 +1,5 @@
 # Choose-Your-Own-Adventure
-Read and choose your next choice as you try and escape a dragon!  This project features OO programming in C++, utilizing classes, subtype polymorphism, functions, file and std I/O, and data structures (graphs, linked lists, arrays/vectors).
-
-===========================================================================
+Read and choose your next choice as you try and escape a dragon!  This project features OO programming in C++, utilizing classes, subtype polymorphism, functions, file and std I/O, and data structures (graphs, linked lists, arrays/vectors):
 
 In this evaluative assignment, you will be writing a program that presents
 a "choose your own adventure" story (CYOA). For those of you not familiar
@@ -77,8 +75,7 @@ some of which are valid and some of which are not.  These other test
 cases do not really tell meaningful stories (though story1 and story2
 are also there for convenience).
 
-Step 1
-===========================================================================
+# Step 1
 
 For the first part of this assignment, you should make the following:
 
@@ -139,18 +136,18 @@ If the page has WIN or LOSE instead of choices, you should
  2. Next, print a blank line.
  3. Then print either
  
-Congratulations! You have won. Hooray!
+	Congratulations! You have won. Hooray!
 
-    or
+or
 
-Sorry, you have lost. Better luck next time!
+	Sorry, you have lost. Better luck next time!
 
-    You should print the former if the page is a WIN page, and the later if
-    the page is a LOSE page. 
+You should print the former if the page is a WIN page, and the later if
+the page is a LOSE page. 
 
-    For this phase, make sure your Makefile produces cyoa-step1. As you
-    progress through the later phases, you MUST leave cyoa-step1 building
-    and working correclty (i.e., we will explicitly test this program).
+For this phase, make sure your Makefile produces cyoa-step1. As you
+progress through the later phases, you MUST leave cyoa-step1 building
+and working correclty (i.e., we will explicitly test this program).
 
 Hint: You should write cyoa-step1.cpp with *as little* code in it as
 possible. It should mostly make use of classes and functions that you have
@@ -159,8 +156,7 @@ written in other files, so you can reuse them for later steps.
 Be sure your code compiles, test it well, and submit it before proceeding
 to the next step. 
 
-Step 2
-===========================================================================
+# Step 2
 
 For this step, you are going to make cyoa-step2, which should let a person
 "read" the story. In particular:
@@ -215,8 +211,7 @@ moving on to the next step.
 As before, we recommend that you write very little code in main, instead
 making use of functions and classes you wrote elsewhere.
 
-Step 3
-===========================================================================
+# Step 3
 
 For this step, you will be writing a program that determines the
 "story depth" of each page. The "story depth" of a page P is the
@@ -278,8 +273,7 @@ Make sure your Makefile produces cyoa-step3 (and that cyoa-step1 and
 cyoa-step2 still build and run correctly). Test your program well, and
 submit before moving on to the next step.
 
-Step 4
-===========================================================================
+# Step 4
 
 For this step, you are going to write cyoa-step4 which will help you
 find all cycle-free ways to "win" a given choose your own adventure
