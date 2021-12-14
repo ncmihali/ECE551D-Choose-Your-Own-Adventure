@@ -7,9 +7,9 @@ with this type of story, a "choose your own adventure" book presents a
 story, but you do not read every page in order. Instead, pages end with a
 choice of where to go. E.g. a page might end with 
 
- 1. If you want to try to sneak past the sleeping dragon, turn to page 47.  
- 2. If you want to leave the dragon's cave and go home, turn to page 59.
- 3. If you want to draw your sword and attack the dragon, turn to page 32. 
+ 1. If you want to try to sneak past the sleeping dragon, turn to page 47.
+ 3. If you want to leave the dragon's cave and go home, turn to page 59.
+ 4. If you want to draw your sword and attack the dragon, turn to page 32.
 
 The reader then selects one of these options, turns to the indicated page,
 and continues the story. 
@@ -38,7 +38,7 @@ The format of an input file is as follows:
 	be a positive integer (strictly greater than 0). Any text is allowed
 	after the colon, up to (and including) the newline which ends it.
 	An example of three such lines would be: 
-
+	
 47:Try to sneak past the sleeping dragon
 59:Leave the dragon's cave and go home
 32:Draw your sword and attack the dragon
