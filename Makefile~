@@ -1,2 +1,0 @@
-all:
-	g++ out cyoa-step1 cyoa-step1.cpp
