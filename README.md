@@ -141,13 +141,6 @@ For this phase, make sure your Makefile produces cyoa-step1. As you
 progress through the later phases, you MUST leave cyoa-step1 building
 and working correclty (i.e., we will explicitly test this program).
 
-Hint: You should write cyoa-step1.cpp with *as little* code in it as
-possible. It should mostly make use of classes and functions that you have
-written in other files, so you can reuse them for later steps.
-
-Be sure your code compiles, test it well, and submit it before proceeding
-to the next step. 
-
 # Step 2
 
 For this step, you are going to make cyoa-step2, which should let a person
@@ -196,10 +189,6 @@ For this step, you are going to make cyoa-step2, which should let a person
     5d. Go to the page corresponding to the choice the user selected, and
         repeat the process until you exit in 5b (a WIN or a LOSE page). 
 
-Make sure your Makefile produces cyoa-step2 (and that cyoa-step1 still
-builds and runs correctly). Test your program well, and submit before
-moving on to the next step. 
-
 As before, we recommend that you write very little code in main, instead
 making use of functions and classes you wrote elsewhere.
 
@@ -243,10 +232,10 @@ Here is what your cyoa-step3 program will do:
 
 Page 4:1
 
-    that is, Page (number):(number) where the first number is the page
-    number and the second number is the story depth. If the page is
-    not reachable from the start and has no story depth, your program
-    should print that information in the following format:
+that is, Page (number):(number) where the first number is the page
+number and the second number is the story depth. If the page is
+not reachable from the start and has no story depth, your program
+should print that information in the following format:
 
 Page 27 is not reachable
 
@@ -274,13 +263,13 @@ cycles. It only means that you should print each way to win that does
 not repeat the same page. For example, if the story had a path to win
 like 
 
-       +--------+
-       |        |
-       V        |
- 1->2->3->4->5->6->7(win)
-    ^     |  |     ^
-    |     |  |     |
-    +-----+  +->8->9
+       		+--------+
+       		|        |
+       		V        |
+ 	  1->2->3->4->5->6->7(win)
+    	  ^     |  |     ^
+    	  |     |  |     |
+    	  +-----+  +->8->9
 
 You would only report the paths that use pages 1,2,3,4,5,6,7 and
 1,2,3,4,5,8,9,7 as those are the two ways to win without repeating a
